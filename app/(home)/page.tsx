@@ -1,4 +1,10 @@
-// root segment : 유저가 root("/")에서 보이게 될 페이지
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Home'
+}
+
+
 export default function App() {
   return (
     <div>
